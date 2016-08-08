@@ -1,13 +1,20 @@
 import React, { Component } from 'react'
+import Buttons from './button'
 
 class App extends Component {
 
   constructor (props) {
     super(props)
   }
-
+  button() {
+  	<button></button>
+  }
   render () {
-    return <h1>Welcome to {this.props.name}</h1>
+    return (
+    	<div>
+    		<Buttons />
+    	</div>
+    )
   }
 
 }
